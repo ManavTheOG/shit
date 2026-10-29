@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir deep_shit && mkdir light_shit
+for i in deep_shit light_shit; do touch "$i"/shit.py "$i"/shit.js; done
